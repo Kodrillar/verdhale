@@ -1,0 +1,52 @@
+name: verdhale
+description: A new Flutter project.
+
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.16.1 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  flutter_secure_storage: ^5.0.2
+  http: ^0.13.4
+  carousel_slider: ^4.0.0
+  cached_network_image: ^3.2.0
+  image_picker: ^0.8.5
+  jitsi_meet: ^4.0.0
+  webview_flutter: ^2.0.12
+  flutter_clean_calendar: ^1.1.0
+  intl: ^0.17.0
+  flutter_map: ^0.14.0
+  latlong: ^0.6.1
+  geolocator: ^8.2.1
+  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^1.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
