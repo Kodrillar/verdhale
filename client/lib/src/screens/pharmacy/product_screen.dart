@@ -106,7 +106,7 @@ class _ProductScreenState extends State<ProductScreen> {
               children: [
                 Text(
                   '$productQuantity',
-                  style: kAppBarTextStyle.copyWith(color: kGreenColor),
+                  style: kAppBarTextStyle.copyWith(color: kRedColor),
                 ),
                 Row(
                   children: [
@@ -120,7 +120,7 @@ class _ProductScreenState extends State<ProductScreen> {
                           });
                         },
                         icon: const Icon(Icons.remove),
-                        color: kLightColor,
+                        color: kYellowColor,
                       ),
                       decoration: BoxDecoration(
                         color: kGreenColor,
@@ -138,7 +138,7 @@ class _ProductScreenState extends State<ProductScreen> {
                           });
                         },
                         icon: const Icon(Icons.add),
-                        color: kLightColor,
+                        color: kYellowColor,
                       ),
                       decoration: BoxDecoration(
                         color: kGreenColor,
@@ -219,7 +219,7 @@ class _ProductScreenState extends State<ProductScreen> {
           Navigator.pop(context);
         },
       ),
-      
+
       // ],
       elevation: 0,
       backgroundColor: Colors.transparent,

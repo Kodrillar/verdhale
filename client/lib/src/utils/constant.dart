@@ -4,6 +4,7 @@ const kGreenColor = Color(0xFF0BB14D);
 const kLightColor = Colors.white;
 const kRedColor = Colors.red;
 const kLightRedColor = Color(0xFFFCDFDF);
+const kYellowColor = Colors.yellow;
 const kAuthSubtitleTextStyle = TextStyle(
   fontSize: 15,
   color: kGreenColor,
@@ -16,7 +17,7 @@ const kAppBarTextStyle = TextStyle(
 
 const kAuthOptionTextStyle = TextStyle(
   fontWeight: FontWeight.bold,
-  color: Colors.red,
+  color: kRedColor,
 );
 const kAuthTextStyle = TextStyle(
   color: kGreenColor,

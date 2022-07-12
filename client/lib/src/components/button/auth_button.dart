@@ -29,7 +29,7 @@ class _AuthButtonState extends State<AuthButton> {
           child: Text(
             widget.buttonName,
             style: const TextStyle(
-              color: kLightColor,
+              color: kYellowColor,
               fontSize: 18,
               fontWeight: FontWeight.w700,
             ),

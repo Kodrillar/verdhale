@@ -8,7 +8,7 @@ const user = require("../routes/user");
 const appointment = require("../routes/appointment");
 const product = require("../routes/pharmacy/product");
 const vaccination = require("../routes/vaccination/vaccination");
-const support_chat = require("../routes/patient/support/chat");
+
 
 module.exports = function(app){
 
@@ -22,6 +22,5 @@ module.exports = function(app){
     app.use("/api/appointment", appointment);
     app.use("/api/pharmacy/products" , product);
     app.use("/api/vaccination", vaccination);
-    app.use("/api/support/chat", support_chat);
     app.use(error);
 }

@@ -147,7 +147,10 @@ class _AppointmentScreenState extends State<AppointmentScreen> {
             ),
             child: buildSubTitle(text: "Recently booked"),
           ),
-          SizedBox(
+          Container(
+            margin: const EdgeInsets.symmetric(
+              vertical: 10,
+            ),
             height: 250,
             child: FutureBuilder<List<AppointmentModel>>(
               future: getAppointment(),
@@ -178,6 +181,7 @@ class _AppointmentScreenState extends State<AppointmentScreen> {
 
   _buildAppointmentList({required List<AppointmentModel> appointmentData}) {
     return ListView.builder(
+      physics: const ClampingScrollPhysics(),
       itemCount: appointmentData.length,
       itemBuilder: (context, index) => ListTile(
         title: Text("ID: ${appointmentData[index].aid}"),

@@ -6,9 +6,7 @@ Map<String, String> endpoints = {
   "getCurrentUser": "/user/me",
   "appointment": "/appointment",
   "deleteAppointment": "/appointment/remove",
-  "getProducts": "/pharmacy/products/",
-  "getChat":"/support/chat",
-  "addChat" :"/support/chat",
+  "getProducts": "/pharmacy/products/"
 };
 
 class API {
